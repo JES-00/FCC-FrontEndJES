@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+  background-image: linear-gradient(
+    150deg, #7b858e 25%, #020024 100%);
+}
+
+h1 {
+  font-family: 'Tektur', sans-serif;
+  font-size: 40px;
+  margin-bottom: 3vh;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+#drum-machine {
+  margin: 15px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+   width: 100%;
+   display: grid;
+   padding: 10px;
+   grid-gap: 15px;
+   margin-top: 40px;
+   border-radius: 15px;
+   grid-template-columns: 1fr;
+   font-family: 'Tektur', sans-serif;
+}
+
+.keyboard {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.keyboard .drum-pad {
+  width: 85%;
+  height: 85px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all .3s ease-in-out;
+  font-family: 'Tektur', sans-serif;
+}
+
+@media(min-width: 960px){
+  .wrapper {
+      width: 800px;
+  }
+}
+
+@media(min-width: 992px){
+  .wrapper {
+     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.controller > button {
+  margin-bottom: 15px;
+}
+
+.controller > input {
+  margin-bottom: 20px;
+  
+}
+.controller > h2 {
+  margin-bottom: 30px;
+}
+
+.controller button{
+  border: 2px solid;
+  color: #000000;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: 'Tektur', sans-serif;
+}
