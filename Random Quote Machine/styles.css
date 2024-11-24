@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#quote-box {
+  position: relative;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  max-height: 400px;
+  max-width: 425px;
+  padding: 50px;
+  background-color: #eeeeee
+}
+
+#text {
+  text-align: center;
+  height: auto;
+  width: 425px;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-size: 2em;
+  margin-right: 100px;
+}
+
+#author {
+  height: auto;
+  width: 350px;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  text-align: right;
+  padding-top: 5px;
+  font-size: 1.5em;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+  background: white;
+}
+#tweet-quote {
+  padding: 12px 24px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: 0;
+  border-radius: 10px;
+  background: white;
+  margin-left: 150px;
+}
+
